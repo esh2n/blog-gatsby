@@ -79,7 +79,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Rubyの環境構築( +α Rails )
-  
+
   1. rbenvのインストール
       - `brew install rbenv`
       - `export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"`
@@ -107,6 +107,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Vue.jsの環境構築
+
   1. Vue CLIのインストール
       - `yarn global add @vue/cli`
       - `npm install -g @vue/cli`
@@ -116,6 +117,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
       - `yarn serve`` yarn build
 
 # Gatsby.jsの環境構築
+
   1. Gatsby CLIのインストール
       - `npm install -g gatsby-cli`
       - `gatsby new {project}`
@@ -124,6 +126,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Angularの環境構築
+
   1. Angular CLIのインストール
       - `npm install -g @angular/cli`
       - `ng new {project}`
@@ -131,12 +134,14 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Reactの環境構築
+
   1. プロジェクト立ち上げ
       - `npx create-react-app {project}`
       - `npm start`
 
 
 # React-360の環境構築
+
   1. React-360 CLIのインストール
       - `npm install -g react-360-cli`
       - `react-360 init {project}`
@@ -144,6 +149,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Flutterの環境構築
+
   1. Flutter SDKのインストール
     - [here](https://flutter.dev/docs/get-started/install/macos)
     - `unzip ~/Downloads/flutter_macos_v1.9.1+hotfix.6-stable.zip`
@@ -161,6 +167,7 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # GitHubの環境構築
+
   1. sshKeyの作成と設定
     - [here](https://qiita.com/shunyaendoh/items/7a347f3c7dc505049b60)
     - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
@@ -174,11 +181,37 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # TypeScriptの環境構築
+
   1. typescriptコンパイラのインストール
     - `npm install -g typescript`
     - `tsc -v`
   2. コンパイルから実行
     - `tsc {file(.ts)}`
     - `node {file(.js)}`
+  3. TypeScriptプロジェクトのテスト
+    - `npm init --y`: デフォルト設定でpackage.json作成
+    - `tsc --init` : tsconfig.jsonを作成
+    - `tsc app.ts` : コンパイル
+    - `webpack app.js --output bundle.js --mode=development`
 
 
+# Electronの環境構築
+
+  1. electron-cliのインストール
+    - `npm i -g electron`
+  2. Electron立ち上げ
+    - `npm init -y`
+    - `npm i -D electron`
+    - `npm start`
+  3. electron-builderのインストール
+    - `npm install -D electron-builder`
+    - `node build-mac`
+    - [here](https://qiita.com/zaburo/items/828051fc7dabb258f0de)
+
+
+# Nuxt.jsの環境構築
+
+  1. Nuxt.js立ち上げ
+    - `npx create-nuxt-app {project}`
+    - `npm run dev`
+    - `npm install --save nuxt`
