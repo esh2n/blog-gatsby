@@ -7,11 +7,13 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
 
 
 # Homebrewのインストール
+
   1. Homebrewのインストール
       - [here](https://brew.sh/index_ja.html)
 
 
 # node.jsの環境構築
+
   1. nodebrewのインストール
       - `brew install nodebrew`
       - `nodebrew -v`
