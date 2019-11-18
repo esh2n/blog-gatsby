@@ -47,7 +47,7 @@ export default ({ data }) => {
                     <section id="three">
                         <h2>Work</h2>
                         <div className="row" style={{ overflow: 'scroll', height: '15.2rem' }}>
-                            <Work link="https://svelte-todoapp.netlify.com/" image="https://i.ytimg.com/vi/efAMY1JvrcQ/maxresdefault.jpg" title="Todo アプリ (Svelte)"/>
+                            <Work link="https://svelte-todoapp.netlify.com/" image="https://i.ytimg.com/vi/efAMY1JvrcQ/maxresdefault.jpg" title="Todo App (Svelte)"/>
                             <Work link="https://vue-slack-prod-da6b0.web.app/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="Real time chat tool (Vue.js)"/>
                             <Work link="https://ideathon-village.herokuapp.com/" image="https://xzxzyzyz.com/img/feature/laravel-57-released.png" title="Matching service (Laravel)"/>
                             <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="Portfolio (Vue.js)"/>
