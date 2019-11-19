@@ -15,7 +15,7 @@ image: https://images.idgesg.net/images/article/2019/01/slack_logo_wordmark_2019
 
 成果物はこちら、
 
-![sample.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/b61e39f9-d8ff-a5d2-b9fb-69716da12736.gif)
+![sample.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/642014dd-019b-1b71-b3fd-e466abe6b5c0.gif)
 
 ## 仕様
 
