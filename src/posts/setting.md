@@ -180,7 +180,18 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
   2. 複数アカウントの際のコマンド
     - `to main(sub)`
     - `git remote add origin git@github(-sub):<account>/<repo>`
-
+  3. チートシート
+    - `git stash` : (save)
+    - `git stash list` -p
+    - `git stash show {stash名}`
+    - `git stash apply {stash名}`
+    - `git stash drop {stash名}` pop = apply + drop
+    - `git diff` : add前
+    - `git diff --cached` : add後
+    - `git diff HEAD^` : (..HEAD) commit後
+    - `git reset HEAD` : add取り消し
+    - `git switch -c {branch名}`
+    - `git rm -r --cached {file名}` : キャッシュ削除
 
 # TypeScriptの環境構築
 
@@ -217,3 +228,52 @@ image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/or
     - `npx create-nuxt-app {project}`
     - `npm run dev`
     - `npm install --save nuxt`
+
+
+
+
+# Sassの環境構築
+
+  1. Sassのインストール
+    - `ruby -v` : rubyが入っているか確認
+    - `sudo gem install sass` : gemを使ってインストール
+    - `sass -v`
+  2. Sassのアップデート
+    - `gem update --system` : gemのアップデート
+    - `gem update sass`
+  3. Sassのコンパイル
+    - `sass (--watch) {file.scss} {file.css} (--style expanded)`
+    - `nested` : ネスト構造
+    - `expanded` : 通常のCSS
+    - `compact` : シングルライン
+    - `compressed` : 余分を全て排除
+
+
+# Svelteの環境構築
+
+  1. Svelte立ち上げ
+    - `npx degit sveltejs/template {project}`
+    - `npm i`
+    - `npm run dev` : build
+    - `npm i -g svelte-cli` : cliのインストール
+
+
+# Gulpの環境構築
+
+  1. Gulpのインストール
+    - `npm i -D gulp`
+    - `npm i -g gulp-cli`
+    - `npm i -D gulp gulp-sass`
+    - gulpfile.jsをルートに作成
+    - `npx gulp`
+
+
+# CocoaPodsの環境構築
+
+  1. CocoaPodsのインストール
+    - `sudo gem install cocoapods`
+    - `pod setup`
+  2. ライブラリの追加
+    - `pod init`
+    - Podfileを編集
+    - `pod install` : update
