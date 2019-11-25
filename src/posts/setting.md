@@ -1,5 +1,5 @@
 ---
-title: "今までやった環境構築メモ( 2019/11/25 )"
+title: "今までやった環境構築メモ( 2019/11/25更新 )"
 date: "2019-11-25"
 keywords: "markdown"
 image: https://media.mstdn.io/mstdn-media/media_attachments/files/002/495/471/original/f36581dfec7e9d8a.png
